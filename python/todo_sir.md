@@ -1,0 +1,67 @@
+# To do
+
+- [ ] Fundamentals:
+  - [ ] Compiler
+  - [ ] Interpreter
+  - [ ] Language
+  - [ ] Identifiers
+- [ ] Introduction:
+  - [ ] python
+  - [ ] variable
+  - [ ] functions
+- [ ] Setup
+  - [ ] Compiler + interpreter
+  - [ ] SDK 
+  - [ ] IDE
+- [ ] Data Types
+  - [ ] numbers
+  - [ ] list
+  - [ ] set
+  - [ ] dictionary
+  - [ ] bool
+- [ ] Operators
+  - [ ] maths
+  - [ ] relation
+  - [ ] logical
+  - [ ] bitwise
+- [ ] Statements
+  - [ ] control
+  - [ ] iterative
+  - [ ] executes
+- [ ] Functions
+  - [ ] procedures
+  - [ ] types
+  - [ ] function reference
+- [ ] Functional Programming
+  - [ ] map/filter/reduce ...
+- [ ] OOP
+  - [ ] class
+  - [ ] object 
+  - [ ] polymorphism
+- [ ] Modules and Packages
+  - [ ] module
+  - [ ] Book
+- [ ] Advanced Features
+  - [ ] closure
+  - [ ] Decorator
+  - [ ] generator
+  - [ ] metaclass
+  - [ ] AOP
+- [ ] Web Services
+  - [ ] Flask
+  - [ ] REST
+- [ ] Numpy
+  - [ ] Collections 
+- [ ] Pandas
+  - [ ] Data processing 
+- [ ] Data Analysis
+- [ ] Data Visualization
+  - [ ] Matplotlib
+  - [ ] seaborn
+- [ ] Testing
+  - [ ] selenium
+- [ ] Web Scrapping
+  - [ ] selenium
+  - [ ] Beautiful Soup
+  - [ ] ScraPy
+
