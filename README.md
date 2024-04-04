@@ -1,2 +1,9 @@
 # My-Notes
-1. Python
+- Java
+- Linux
+- Python
+
+# To do
+-[x] Create git repo :tada:
+-[ ] Python theory
+
