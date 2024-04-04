@@ -1,17 +1,17 @@
 # Index:
 	1.Introduction
 	2.Syntax
-	# .To do
+	?.To do
 
 1.Introduction
 
-# .To do
-	## Fundamentals:
+# To do
+## Fundamentals:
 		### Compiler
 		### Interpreter
 		### Language
 		### Identifiers
-	##Introduction:
+##Introduction:
 		###python
 		###variable
 		###functions
