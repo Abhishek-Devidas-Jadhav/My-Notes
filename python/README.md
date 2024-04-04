@@ -5,13 +5,15 @@
 
 1.Introduction
 
-# To do
+# ?.To do
+
 ## Fundamentals:
-		### Compiler
-		### Interpreter
-		### Language
-		### Identifiers
-##Introduction:
-		###python
-		###variable
-		###functions
+### Compiler
+### Interpreter
+### Language
+### Identifiers
+
+## Introduction:
+### python
+### variable
+### functions
