@@ -19,3 +19,7 @@ def a():
 print(a.__doc__)
 
 print(f"spilitting {string1.split(sep='d')}")
+
+
+def ascii_letters():
+    return None

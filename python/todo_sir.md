@@ -65,3 +65,5 @@
   - [ ] Beautiful Soup
   - [ ] ScraPy
 
+# Language fundamentals
+## compter
