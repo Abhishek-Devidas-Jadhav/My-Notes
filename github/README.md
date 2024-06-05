@@ -1,12 +1,12 @@
-This is Markdown language.
+This is Markdown language.[^1]
 - Heading to create hierarchy level
 # Heading form 1 to 6 '#'
 ###### Just another heading
 - Bullet list
 	- Sub list in hierarchy
 - Reference
-	- Link [^1] 
-	- Text [^2] 
+	- Link [^2] 
+	- Text [^3] 
 - Links
 	- [[test_file]]
 	- https://google.com
@@ -32,16 +32,18 @@ exit(0)
 - check boxes
 	- [ ] Unchecked box
 	- [x] Checked box
-- Mermaid graph
+- Mermaid Graph [^4]
 ```mermaid
-graph TD;
-	Root-->Leaf_node;
-	Root-->Parent_1;
-	Root-->Parent_2;
-	Parent_1-->Child_1;
-	Parent_1-->Child_2;
-	Parent_2-->Leaf_note;
-	
+graph TD
+    A[START] -->|Writing| B(Psuedo code)
+    B -->|Drawing|C(Flowchart)
+    C --> |Analyzing|D{"Is Flowchart\ncorrect?"}
+    D -->|Yes| E(Write <br> Code)
+    D -->|No|A
+    
+    E -->|"Execting \n code"| F{"Is output <br> as expected"}
+    F --> |Yes|G[STOP]
+    F -->|NO| C
 ```
 - GeoJSON map
 ```geojson
@@ -151,8 +153,10 @@ git add
 git commit
 git push
 ```
-[^1]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-[^2]: Text
+[^1]:https://docs.github.com/en/get-started
+[^2]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[^3]: Text
+[^4]:https://mermaid.live/edit
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
   <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">

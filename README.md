@@ -7,3 +7,5 @@
 - [x] Create git repo :tada:
 - [ ] Python theory
 
+# Delete list
+
