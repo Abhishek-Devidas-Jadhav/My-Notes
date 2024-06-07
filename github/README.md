@@ -1,4 +1,20 @@
-This is Markdown language.[^1]
+- Introduction
+	- Git is a distributed version control system that tracks versions of files.
+	- GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
+	- GitLab is the most comprehensive AI-powered DevSecOps Platform.
+	- .md files uses Markdown language.[^1]
+- Basics
+	- Create account and sign in
+	- Create new git repository
+	- Clone the repository `git clone repo_url`
+	- Add changes made in the repository `git add file_name` or `git add .`
+	- Check status `git status`
+	- Commit changes `git commit -m 'comment'`
+	- Push repository using token as password `git push`
+	>Note : 
+	>- A token must be generated before `git push` and that token will never be visible again (store the token safely forever)
+
+
 - Heading to create hierarchy level
 # Heading form 1 to 6 '#'
 ###### Just another heading
