@@ -6,7 +6,6 @@
       {
         "id": "f514053575891ba4",
         "type": "tabs",
-        "dimension": 45.10833880499015,
         "children": [
           {
             "id": "c8e1ae2906ccb355",
@@ -16,25 +15,6 @@
               "state": {
                 "file": "github/README.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "b6c8919d54d4d65d",
-        "type": "tabs",
-        "dimension": 54.891661195009846,
-        "children": [
-          {
-            "id": "204e9117918ebb2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "github/README.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -166,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "204e9117918ebb2c",
+  "active": "c8e1ae2906ccb355",
   "lastOpenFiles": [
     "github/README.md",
     "github/test_file.md",
