@@ -1,54 +1,53 @@
-- Introduction
-	- Git is a distributed version control system that tracks versions of files.
-	- GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
-	- GitLab is the most comprehensive AI-powered DevSecOps Platform.
-	- .md files uses Markdown language.[^1]
-- Basics
-	- Create account and sign in
-	- Create new git repository
-	- Clone the repository `git clone repo_url`
-	- Add changes made in the repository `git add file_name` or `git add .`
-	- Check status `git status`
-	- Commit changes `git commit -m 'comment'`
-	- Push repository using token as password `git push`
+# Introduction
+- Git is a distributed version control system that tracks versions of files.
+-  GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
+- GitLab is the most comprehensive AI-powered DevSecOps Platform.
+- .md files uses Markdown language.[^1]
+# Basics
+- Create account and sign in
+- Create new git repository
+- Clone the repository `git clone repo_url`
+- Add changes made in the repository `git add file_name` or `git add .`
+- Check status `git status`
+- Commit changes `git commit -m 'comment'`
+- Push repository using token as password `git push`
 	>Note : 
 	>- A token must be generated before `git push` and that token will never be visible again (store the token safely forever)
 
 
-- Heading to create hierarchy level
-# Heading form 1 to 6 '#'
+# Heading to create hierarchy level
+## Heading form 1 to 6 '#'
 ###### Just another heading
-- Bullet list
-	- Sub list in hierarchy
-- Reference
-	- Link [^2] 
-	- Text [^3] 
-- Links
-	- [[test_file]]
-	- https://google.com
+# Bullet list
+- Sub list in hierarchy
+# Reference
+- Link [^2] 
+- Text [^3] 
+# Links
+- [[test_file]]
+- https://google.com
 - Embedded text ![[test_file]]
-- Quoting text
+# Quoting text
 	> Here is Quoted text `Here is quoted code?`
-- Quoting code
+# Quoting code
 	```
 	Copy Code from here 
 	```
-- python code
+# python code
 ```python
 print("Hello, World!")
 exit(0)
 ```
-- 
 
-- Text formatting
-	- **Bold** __, Bold 2__
-	- *Italic* _, Italic 2_
-	- ~~Strike through~~
-	- log<sub>e</sub>(e<sup>2</sup>)=2
-- check boxes
-	- [ ] Unchecked box
-	- [x] Checked box
-- Mermaid Graph [^4]
+# Text formatting
+- **Bold** __, Bold 2__
+- *Italic* _, Italic 2_
+- ~~Strike through~~
+- log<sub>e</sub>(e<sup>2</sup>)=2
+# check boxes
+- [ ] Unchecked box
+- [x] Checked box
+# Mermaid Graph [^4]
 ```mermaid
 graph TD
     A[START] -->|Writing| B(Psuedo code)
@@ -61,7 +60,8 @@ graph TD
     F --> |Yes|G[STOP]
     F -->|NO| C
 ```
-- GeoJSON map
+# GeoJSON map
+> Note : Uses currently uses `[longitude,latitude]` system
 ```geojson
 {
   "type": "FeatureCollection",
@@ -92,7 +92,7 @@ graph TD
   ]
 }
 ````
-- TopoJSON map
+# TopoJSON map
 ```topojson
 {
   "type": "Topology",
@@ -127,7 +127,7 @@ graph TD
   "arcs": [[[4000, 0], [1999, 9999], [2000, -9999], [2000, 9999]],[[0, 0], [0, 9999], [2000, 0], [0, -9999], [-2000, 0]]]
 }
 ```
-- 3D model
+# 3D model
 ```stl
 solid cube_corner
   facet normal 0.0 -1.0 0.0
@@ -160,25 +160,21 @@ solid cube_corner
   endfacet
 endsolid
 ```
+# Table
 
-| hello |      codes |
-|:-----:|-----------:|
-|  as   |    re \| 3 |
-|   3   |          a |
-
-Remember : 
-```
-git status
-git add
-git commit
-git push
-```
-[^1]:https://docs.github.com/en/get-started
-[^2]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-[^3]: Text
-[^4]:https://mermaid.live/edit
+| hello |   codes |
+| :---: | ------: |
+|  as   | re \| 3 |
+|   3   |       a |
+# Picture
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
   <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
+
+# References
+[^1]:https://docs.github.com/en/get-started
+[^2]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[^3]: Text
+[^4]:https://mermaid.live/edit
