@@ -2,7 +2,7 @@
 - Git is a distributed version control system that tracks versions of files.
 -  GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
 - GitLab is the most comprehensive AI-powered DevSecOps Platform.
-- .md files uses Markdown language.[^1]
+- .md files uses Markdown language.[^1][^5]
 # Basics
 - Create account and sign in
 - Create new git repository
@@ -11,13 +11,15 @@
 - Check status `git status`
 - Commit changes `git commit -m 'comment'`
 - Push repository using token as password `git push`
-	>Note : 
-	>- A token must be generated before `git push` and that token will never be visible again (store the token safely forever)
-
-
-# Heading to create hierarchy level
-## Heading form 1 to 6 '#'
-###### Just another heading
+>Note : 
+>- A token must be generated before `git push` and that token will never be visible again (store the token safely forever)
+# Headings 
+- Headings are used to create hierarchy level
+- Heading level from 1 to 6 '#'
+- Syntax : 
+>```
+># Heading_title
+>```
 # Bullet list
 - Sub list in hierarchy
 # Reference
@@ -26,14 +28,32 @@
 # Links
 - [[test_file]]
 - https://google.com
-- Embedded text ![[test_file]]
+# Embedded text 
+>Syntax : 
+>```
+![[test_file]]
+>```
+![[test_file]]
+# Embedded image[^9]
+```![alt text](file_path)```
+
+![Cannot load this picture!](https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.pn)
+
+# Embedded page
+<iframe src="https://www.markdownguide.org/basic-syntax/" style="width:100%; height:500px;" ></iframe>
+
+![alt text](https://www.youtube.com/watch?v=ZBb6d-7nt-I&pp=ygUCZXI%3D)
+
+![asd](https://www.markdownguide.org/basic-syntax/)
+
+
 # Quoting text
-	> Here is Quoted text `Here is quoted code?`
+> Here is Quoted text `Here is quoted code?`
 # Quoting code
-	```
-	Copy Code from here 
-	```
-# python code
+```
+Copy Code from here 
+```
+# Python code
 ```python
 print("Hello, World!")
 exit(0)
@@ -162,10 +182,10 @@ endsolid
 ```
 # Table
 
-| hello |   codes |
-| :---: | ------: |
-|  as   | re \| 3 |
-|   3   |       a |
+| Sr no. |                     Data | Data 2       |
+| :----: | -----------------------: | :----------- |
+|   1    |            Right aligned | Left aligned |
+|   2    | Special character ( \| ) |              |
 # Picture
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
@@ -178,3 +198,5 @@ endsolid
 [^2]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 [^3]: Text
 [^4]:https://mermaid.live/edit
+[^5]:https://www.markdownguide.org/basic-syntax/
+[^9]:https://tiiny.host/blog/images-in-markdown/
