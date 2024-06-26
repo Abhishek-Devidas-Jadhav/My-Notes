@@ -4,47 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "52f481689ae7c04b",
-        "type": "split",
+        "id": "61dd1cc45e798cde",
+        "type": "tabs",
         "children": [
           {
-            "id": "61dd1cc45e798cde",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ba03005d30e59ff0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "github/README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "ba03005d30e59ff0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "github/README.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "bcbfb3906d637001",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "331812919d555119",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "github/README.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "vertical"
+        ]
+      },
+      {
+        "id": "12faa89ad070d366",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddfcebf2ddc85d23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "github/README.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,12 +164,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "331812919d555119",
+  "active": "ddfcebf2ddc85d23",
   "lastOpenFiles": [
-    "python/README.md",
-    "github/README.md",
-    "python/todo.md",
+    "github/data/test_file.md",
+    "github/data/test.png",
+    "github/data",
+    "github/test.png",
+    "test.png",
+    "github/remapped2.png",
     "github/test_file.md",
+    "github/README.md",
+    "python/README.md",
+    "python/todo.md",
     "README.md~",
     "python/todo_sir.md",
     "README.md",

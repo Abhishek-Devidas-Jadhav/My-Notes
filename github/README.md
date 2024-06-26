@@ -16,35 +16,32 @@
 # Headings 
 - Headings are used to create hierarchy level
 - Heading level from 1 to 6 '#'
-- Syntax : 
->```
-># Heading_title
->```
+- Syntax :  ```# Heading_title```
 # Bullet list
-- Sub list in hierarchy
-# Reference
-- Link [^2] 
-- Text [^3] 
-# Links
-- [[test_file]]
-- https://google.com
-# Embedded text 
->Syntax : 
->```
-![[test_file]]
->```
-![[test_file]]
-# Embedded image[^9]
-```![alt text](file_path)```
-
-![Cannot load this picture!](https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.pn)
-
-# Embedded page
+- Used to create list in hierarchy
+- Syntax :  ```- list``` or ```* list ```
+# Referencing References / Footnotes
+- To Link [^2]
+- To Text [^3] 
+- Syntax :  ```[^1]```
+# Hyperlink
+- To local file [[test_file]] , syntax : ```[[path/test_file]]```
+- To web page https://google.com , syntax :  ```url```
+- On Text [Google](https://google.com) , syntax :  ```[Text](url)```
+# Embedded objects [^9][^10]
+* Embedding Heading : [Basics of Github](#Basics) , Syntax : ```[Text](#Heading_title)```
+- Embedded text , syntax  : ```![[path/test_file]]```
+![[./data/test_file.md]]
+- Embedded image , syntax : ```![alt text](file_path)```
+![Cannot load this picture!](./data/test.png)
+- Embedded page, syntax : ``` <iframe src="url" style="width:100%; height:500px;" ></iframe>```
 <iframe src="https://www.markdownguide.org/basic-syntax/" style="width:100%; height:500px;" ></iframe>
 
-![alt text](https://www.youtube.com/watch?v=ZBb6d-7nt-I&pp=ygUCZXI%3D)
 
-![asd](https://www.markdownguide.org/basic-syntax/)
+
+
+- Horizontal Ruler Syntax :  ```---```
+---
 
 
 # Quoting text
@@ -60,6 +57,7 @@ exit(0)
 ```
 
 # Text formatting
+- ==Highlight==
 - **Bold** __, Bold 2__
 - *Italic* _, Italic 2_
 - ~~Strike through~~
@@ -194,9 +192,12 @@ endsolid
 </picture>
 
 # References
+- Syntax : ```[^1]:Reference here```
+
 [^1]:https://docs.github.com/en/get-started
 [^2]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-[^3]: Text
+[^3]: Reference text
 [^4]:https://mermaid.live/edit
 [^5]:https://www.markdownguide.org/basic-syntax/
 [^9]:https://tiiny.host/blog/images-in-markdown/
+[^10]:https://markdownmonster.west-wind.com/docs/_4xs10gaui.htm
