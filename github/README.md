@@ -4,96 +4,203 @@
 - GitLab is the most comprehensive AI-powered DevSecOps Platform.
 - .md files uses Markdown language.[^1][^5]
 - .md files also uses HTML language to use elements.
+
 # Basics
 - Create account and sign in
 - Create new git repository
-- Clone the repository `git clone repo_url`
-- Add changes made in the repository `git add file_name` or `git add .`
-- Check status `git status`
-- Commit changes `git commit -m 'comment'`
-- Push repository using token as password `git push`
+- Clone the repository
+	```bash
+	git clone repo_url
+	```
+- Add changes made in the repository
+	```bash
+	git add file_name
+	```
+	or
+	```bash
+	git add .
+	```
+- Check status
+	```bash
+	git status
+	```
+- Commit changes
+	```bash
+	git commit -m 'comment'
+	```
+- Push repository using token as password 
+	```bash
+	git push
+	```
+
 >Note : 
 >- A token must be generated before `git push` and that token will never be visible again (store the token safely forever)
+>- To tell Git not to track any files by removing it from the index
+>	```bash
+>	git rm -r --cached .
+>	```
+
 # Headings 
 - Headings are used to create hierarchy level
 - Heading level from 1 to 6 '#'
-- Syntax :  ```# Heading_title```
+- Syntax :
+	```md
+	# Heading_title
+	```
+
 # Bullet list
 - Used to create list in hierarchy
-- Syntax :  ```- list``` or ```* list ```
+	```md
+	- list
+	```
+	or
+	```md
+	* list 
+	```
+
 # Referencing References / Footnotes
 - To Link [^2]
 - To Text [^3] 
-- Syntax :  ```[^1]```
+	```md
+	[^reference_number]
+	```
+
 # Hyperlink
-- To local file [[test_file]] , syntax : ```[[path/test_file]]```
-- To web page https://google.com , syntax :  ```url```
-- On Text [Google](https://google.com) , syntax :  ```[Text](url)```
+- To local file [[test_file]]
+	```md
+	[[path/test_file]]
+	```
+- To web page https://google.com
+	```md
+	url
+	```
+- On Text [Google](https://google.com)
+	```md
+	[Text](url)
+	```
+
 # Embedded objects [^9][^10]
-* Embedding Heading : [Basics of Github](#Basics) , Syntax : ```[Text](#Heading_title)```
-- Embedded text , syntax  : ```![[path/test_file]]```
-![[./data/test_file.md]]
-- Embedded media, syntax : ```![[alt text](alt media)](file_path/image_file)```
- - Can Embedded either by link (url_to_file) or locally (path/file)
- - Media embedded may be audio, image, video, URL, file etc.
- - Example of embedded image [![Cannot load this picture!](./data/test.png)](https://upload.wikimedia.org/wikipedia/commons/8/8f/Orange_lambda.svg)
- - Example of embedded video [![Rick roll video](https://i.ytimg.com/vi_webp/dQw4w9WgXcQ/maxresdefault.webp)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+* Embedding Heading [Basics of Github](#Basics)
+	```md
+	[Text](#Heading_title)
+	```
+- Embedded text
+	![[./data/test_file.md]]
+	```md
+	![[path/test_file]]
+	```
+- Embedded media (audio, image, video, URL, file etc.)
+	```md
+	![[alt text](alt media)](file_path/media_file)
+	```
+	or
+	```md
+	![[alt text](alt media)](url/media_file)
+	```
 - Embedded media (html) uses element to enable media features.
- - Embedded media syntax (html) :
- ```html
-<div style="position: relative; width: 100%; padding-bottom: 50%">
-<iframe src="url" 
-        title="title" frameborder="0" allowfullscreen
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        style="position: absolute; width: 100%; height: 100%;">
-</iframe>
-</div>
-```
- - Simple embedded media syntax (html):
-```html
-<iframe src="url" style="width:100%; height:500px;" ></iframe>
-```
- - Example of Embedded video (html)
-<div style="position: relative; width: 100%; padding-bottom: 50%">
-<iframe src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
-        title="Getting Rick Rolled" frameborder="0" allowfullscreen
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        style="position: absolute; width: 100%; height: 100%;">
-</iframe>
-</div>
+	```html
+	<div style="position: relative; width: 100%; padding-bottom: 50%">
+	<iframe src="url" 
+	        title="title" frameborder="0" allowfullscreen
+	        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+	        style="position: absolute; width: 100%; height: 100%;">
+	</iframe>
+	</div>
+	```
+	 or
+	```html
+	<iframe src="url" style="width:100%; height:500px;" ></iframe>
+	```
+ - Example of embedded image 
+	 [![Cannot load this picture!](./data/test.png)](https://upload.wikimedia.org/wikipedia/commons/8/8f/Orange_lambda.svg)
+ - Example of embedded video 
+	 [![Rick roll video](https://i.ytimg.com/vi_webp/dQw4w9WgXcQ/maxresdefault.webp)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- Example of Embedded video (html)
+	<div style="position: relative; width: 100%; padding-bottom: 50%">
+	<iframe src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+	        title="Getting Rick Rolled" frameborder="0" allowfullscreen
+	        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+	        style="position: absolute; width: 100%; height: 100%;">
+	</iframe>
+	</div>
  - Example of embedded page (html)
-<iframe src="https://www.markdownguide.org/basic-syntax/" style="width:100%; height:500px;" ></iframe>
-
-
-
-
-- Horizontal Ruler Syntax :  ```---```
----
-
+	<iframe src="https://www.markdownguide.org/basic-syntax/" style="width:100%; height:500px;" ></iframe>
 
 # Quoting
-- Text, syntax : ```> Text ```
-> Here is Quoted text `Here is quoted code?`
-- Code , syntax : ``` ```sd``` ```
+- Text `Here is quoted text`
+	```md
+	 `Text`
+	 ```
+- Quoted text in note
 
-```
-Copy Code from here 
-```
-# Quoting code
-```python
-print("Hello, World!")
-exit(0)
-```
+	>Here is Quoted text 
+
+	```md
+	> Note:
+	> Write note here.
+	```
+- Quoting code
+	```python
+	print("Hello, World!")
+	exit(0)
+	```
+	
+	` ```code_language
+	new_line
+	code_here
+	new_line
+	``` `
+
 
 # Text formatting
 - ==Highlight==
-- **Bold** __, Bold 2__
-- *Italic* _, Italic 2_
+	```md
+	==text==
+	```
+- **Bold** or __Bold 2__
+	```md
+	**text**
+	```
+	or 
+	```md
+	__text__
+	```
+- *Italic* or _Italic 2_
+	```md
+	*text*
+	```
+	or
+	```md
+	_text_
+	```
 - ~~Strike through~~
+	```md
+	~~text~~
+	```
 - log<sub>e</sub>(e<sup>2</sup>)=2
-# check boxes
+	```md
+	text
+	<sub>subscript_text</sub>
+	<sup>superscript_text</sup>
+	```
+
+# Horizontal Ruler
+```md
+---
+```
+
+---
+
+# Check boxes
 - [ ] Unchecked box
+	```md
+	- [ ] Text
+	```
 - [x] Checked box
+	```md
+	- [x] Text
+	```
+
 # Mermaid Graph [^4]
 ```mermaid
 graph TD
@@ -139,6 +246,7 @@ graph TD
   ]
 }
 ````
+
 # TopoJSON map
 ```topojson
 {
@@ -174,6 +282,7 @@ graph TD
   "arcs": [[[4000, 0], [1999, 9999], [2000, -9999], [2000, 9999]],[[0, 0], [0, 9999], [2000, 0], [0, -9999], [-2000, 0]]]
 }
 ```
+
 # 3D model
 ```stl
 solid cube_corner
@@ -207,12 +316,14 @@ solid cube_corner
   endfacet
 endsolid
 ```
+
 # Table
 
 | Sr no. |                     Data | Data 2       |
 | :----: | -----------------------: | :----------- |
 |   1    |            Right aligned | Left aligned |
 |   2    | Special character ( \| ) |              |
+
 # Picture
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
