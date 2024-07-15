@@ -3,6 +3,7 @@
 -  GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
 - GitLab is the most comprehensive AI-powered DevSecOps Platform.
 - .md files uses Markdown language.[^1][^5]
+- .md files also uses HTML language to use elements.
 # Basics
 - Create account and sign in
 - Create new git repository
@@ -32,9 +33,35 @@
 * Embedding Heading : [Basics of Github](#Basics) , Syntax : ```[Text](#Heading_title)```
 - Embedded text , syntax  : ```![[path/test_file]]```
 ![[./data/test_file.md]]
-- Embedded image , syntax : ```![alt text](file_path)```
-![Cannot load this picture!](./data/test.png)
-- Embedded page, syntax : ``` <iframe src="url" style="width:100%; height:500px;" ></iframe>```
+- Embedded media, syntax : ```![[alt text](alt media)](file_path/image_file)```
+ - Can Embedded either by link (url_to_file) or locally (path/file)
+ - Media embedded may be audio, image, video, URL, file etc.
+ - Example of embedded image [![Cannot load this picture!](./data/test.png)](https://upload.wikimedia.org/wikipedia/commons/8/8f/Orange_lambda.svg)
+ - Example of embedded video [![Rick roll video](https://i.ytimg.com/vi_webp/dQw4w9WgXcQ/maxresdefault.webp)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- Embedded media (html) uses element to enable media features.
+ - Embedded media syntax (html) :
+ ```html
+<div style="position: relative; width: 100%; padding-bottom: 50%">
+<iframe src="url" 
+        title="title" frameborder="0" allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        style="position: absolute; width: 100%; height: 100%;">
+</iframe>
+</div>
+```
+ - Simple embedded media syntax (html):
+```html
+<iframe src="url" style="width:100%; height:500px;" ></iframe>
+```
+ - Example of Embedded video (html)
+<div style="position: relative; width: 100%; padding-bottom: 50%">
+<iframe src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+        title="Getting Rick Rolled" frameborder="0" allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        style="position: absolute; width: 100%; height: 100%;">
+</iframe>
+</div>
+ - Example of embedded page (html)
 <iframe src="https://www.markdownguide.org/basic-syntax/" style="width:100%; height:500px;" ></iframe>
 
 
@@ -44,13 +71,15 @@
 ---
 
 
-# Quoting text
+# Quoting
+- Text, syntax : ```> Text ```
 > Here is Quoted text `Here is quoted code?`
-# Quoting code
+- Code , syntax : ``` ```sd``` ```
+
 ```
 Copy Code from here 
 ```
-# Python code
+# Quoting code
 ```python
 print("Hello, World!")
 exit(0)
