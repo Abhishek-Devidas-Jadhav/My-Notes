@@ -48,14 +48,19 @@
 	# Heading_title
 	```
 
-# Bullet list
+# list
 - Used to create list in hierarchy
+- Unordered list
 	```md
 	- list
 	```
 	or
 	```md
 	* list 
+	```
+- Ordered list
+	```md
+	1. list
 	```
 
 # Referencing References / Footnotes
@@ -66,6 +71,11 @@
 	```
 
 # Hyperlink
+- To url or local_media like [Google](https://google.com)
+- Synatax
+	```md
+	[Text](url)
+	```
 - To local file [[test_file]]
 	```md
 	[[path/test_file]]
@@ -74,10 +84,7 @@
 	```md
 	url
 	```
-- On Text [Google](https://google.com)
-	```md
-	[Text](url)
-	```
+
 
 # Embedded objects [^9][^10]
 * Embedding Heading [Basics of Github](#Basics)
