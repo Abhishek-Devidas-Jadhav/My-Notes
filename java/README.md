@@ -1,3 +1,7 @@
+# Fundamental for java
+[Go to Fundamental/Programming_Language.md](../Fundamental/Programming_Language.md)
+
+# Introduction
 
 - In java class names begin with a capital letter
 - Method have braces ()

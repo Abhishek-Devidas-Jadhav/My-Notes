@@ -190,6 +190,14 @@
 	<sub>subscript_text</sub>
 	<sup>superscript_text</sup>
 	```
+- <span style="color:red">Colored text</span><br><span style="color:#00FF00">Colored text</span>
+	```md
+	<span style="color:color_name_or_hex">Colored_text</span>
+	```
+- New<br>line
+	```md
+	line1<br>line2
+	```
 
 # Horizontal Ruler
 ```md
