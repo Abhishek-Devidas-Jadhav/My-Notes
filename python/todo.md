@@ -1,6 +1,9 @@
 # Python official
 - https://docs.python.org/3/
 
+# Others
+- https://pyflo.net/
+
 # To do
 - [ ] Fundamentals:
   - [ ] Compiler
