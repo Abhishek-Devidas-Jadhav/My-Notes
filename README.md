@@ -18,5 +18,3 @@
 - [ ] Python theory
 
 # Delete list
-
-test
